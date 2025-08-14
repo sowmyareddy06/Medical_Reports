@@ -1,0 +1,12 @@
+[package]
+name = "MedicalRecords"
+version = "1.0.0"
+authors = []
+
+[addresses]
+medical_records_addr = "0x1ab9ffc01fd3696f16ec6208173d4a21f978752b68a8f51e3ced73631e4b1f4b"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-framework" }
+
+[dev-dependencies]
